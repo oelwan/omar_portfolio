@@ -1,3 +1,14 @@
+This link showcases everything I've built so far. Please take a look and let me know what you think.
+
+https://omar-portfolio-theta-dun.vercel.app/
+
+
+
+you are free to use this code if you like the desgine 
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

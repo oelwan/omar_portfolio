@@ -28,11 +28,11 @@ export default function About() {
             {"\n"}
             <span className="text-syntax-variable">  focus</span>
             <span className="text-syntax-punctuation">: [</span>
-            <span className="text-syntax-string">&quot;LLM Systems&quot;</span>
+            <span className="text-syntax-string">&quot;Data Engineering&quot;</span>
             <span className="text-syntax-punctuation">, </span>
-            <span className="text-syntax-string">&quot;Data Pipelines&quot;</span>
+            <span className="text-syntax-string">&quot;Generative AI&quot;</span>
             <span className="text-syntax-punctuation">, </span>
-            <span className="text-syntax-string">&quot;MLOps&quot;</span>
+            <span className="text-syntax-string">&quot;RAG Systems&quot;</span>
             <span className="text-syntax-punctuation">];</span>
             {"\n"}
             <span className="text-syntax-variable">  status</span>
@@ -46,19 +46,24 @@ export default function About() {
 
         <div className="space-y-4 text-muted leading-relaxed">
           <p>
-            I&apos;m an AI Engineer passionate about designing and deploying
-            intelligent systems — from LLM-powered applications to robust data
-            engineering pipelines that feed them.
+            I&apos;m an AI Engineer specializing in Data Engineering and LLM Systems,
+            passionate about building intelligent applications and scalable
+            data-driven solutions that solve real-world problems.
+
           </p>
           <p>
-            I enjoy working at the intersection of machine learning, software
-            engineering, and product thinking. Whether it&apos;s fine-tuning models,
-            building RAG pipelines, or architecting scalable APIs, I focus on
-            shipping solutions that actually work in production.
+          I enjoy working at the intersection of artificial intelligence,
+          data engineering, and software development. From designing data pipelines 
+          and developing AI-powered applications to building RAG systems and scalable APIs,
+          I focus on turning ideas into practical and impactful solutions.
+          </p>
+          <p>
+          As a lifelong learner in the rapidly evolving world of AI, I continuously explore new technologies, 
+          build projects, and expand my expertise to grow into a world-class engineer.
           </p>
           <p>
             <span className="text-syntax-comment font-mono text-sm">
-              {"// Currently exploring: agentic workflows, eval frameworks, vector search"}
+              {"// Currently exploring: Apache Spark, ETL pipelines, LLMs, RAG systems, MLOps, and cloud technologies"}
             </span>
           </p>
         </div>

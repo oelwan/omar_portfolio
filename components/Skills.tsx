@@ -3,9 +3,9 @@ import ScrollReveal from "./ScrollReveal";
 
 const skillGroups = [
   {
-    category: "languages",
+    category: "Programming_languages",
     color: "text-syntax-keyword",
-    skills: ["Python", "TypeScript", "SQL", "Bash"],
+    skills: ["Python", "TypeScript", "SQL", "C++"],
   },
   {
     category: "ai_ml",
@@ -13,19 +13,14 @@ const skillGroups = [
     skills: ["PyTorch", "LangChain", "Llama 3", "RAG", "Hugging Face", "OpenAI API"],
   },
   {
-    category: "data",
+    category: "data_engineering",
     color: "text-syntax-type",
     skills: ["PostgreSQL", "Pandas", "Apache Spark", "ETL Pipelines", "Vector DBs"],
   },
   {
-    category: "backend",
+    category: "Cloud & MLOps",
     color: "text-syntax-variable",
-    skills: ["FastAPI", "Next.js", "REST APIs", "Docker", "Redis"],
-  },
-  {
-    category: "tools",
-    color: "text-syntax-accent",
-    skills: ["Git", "Linux", "AWS", "MLflow", "Weights & Biases"],
+    skills: ["Docker", "Git", "MLOps", "Azure", "AWS", "google cloud"],
   },
 ];
 

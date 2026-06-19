@@ -10,11 +10,11 @@ import AnimatedButton from "./AnimatedButton";
 
 const terminalLines = [
   { cmd: "whoami", output: "Omar Ibrahim" },
-  { cmd: "role --describe", output: "AI Engineer | Data Engineering & LLM Systems" },
+  { cmd: "role --describe", output: "AI Engineer specialized in Data Engineering and LLM Systems." },
   {
     cmd: "cat mission.txt",
     output:
-      "Building AI-powered applications, data pipelines, and intelligent systems that solve real-world problems.",
+      "Building intelligent data-driven systems, AI applications, and scalable pipelines that solve real-world problems.",
   },
 ];
 

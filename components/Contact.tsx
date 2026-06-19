@@ -19,7 +19,7 @@ export default function Contact() {
                 <span className="text-syntax-string">echo $OPEN_TO</span>
               </p>
               <p className="pl-4 text-muted">
-                Collaborations, freelance projects, and full-time opportunities.
+                full-time, part-time, hyprid and online opportunities.
               </p>
 
               <p className="pt-2">
@@ -57,6 +57,13 @@ export default function Contact() {
             </AnimatedButton>
             <AnimatedButton href="https://github.com/oelwan" external variant="accent">
               GitHub
+            </AnimatedButton>
+            <AnimatedButton
+              href="https://wa.me/201025924078"
+              external
+              variant="primary"
+            >
+              WhatsApp
             </AnimatedButton>
           </div>
         </div>

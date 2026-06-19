@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import SectionHeading from "./SectionHeading";
 import ScrollReveal from "./ScrollReveal";
 import AnimatedButton from "./AnimatedButton";
@@ -206,6 +209,12 @@ const projects = [
 ];
 
 export default function Projects() {
+  const [showAll, setShowAll] = useState(false);
+
+  const displayedProjects = showAll
+    ? projects
+    : projects.slice(0, 6);
+
   return (
     <section id="projects" className="max-w-6xl mx-auto px-6 py-24">
       <ScrollReveal>
@@ -213,7 +222,7 @@ export default function Projects() {
       </ScrollReveal>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {projects.map((project, i) => (
+        {displayedProjects.map((project, i) => (
           <ScrollReveal key={project.name} delay={i * 100}>
             <article className="card-code flex flex-col h-full">
             <div className="flex items-center gap-2 border-b border-border px-5 py-3 bg-surface-elevated/50">
@@ -267,7 +276,17 @@ export default function Projects() {
           </article>
           </ScrollReveal>
         ))}
-      </div>
-    </section>
+            </div>
+
+<div className="flex justify-center mt-10">
+  <button
+    onClick={() => setShowAll(!showAll)}
+    className="font-mono px-6 py-3 rounded-lg border border-border hover:bg-surface-elevated transition"
+  >
+    {showAll ? "Show Less" : "Show More Projects"}
+  </button>
+</div>
+
+</section>
   );
 }

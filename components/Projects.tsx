@@ -21,9 +21,9 @@ const projects = [
     file: "Movie-Recommendation-System.py",
     description:
       "This project is a content-based movie recommendation system using the TMDb 5000 Movie Dataset from Kaggle.",
-    stack: ["---"],
+    stack: ["Streamlit", "TMDB API", "Sentence Transformers"],
     github: "https://github.com/oelwan/Movie-Recommendation-System",
-    demo: null,
+    demo: "https://movie-recommendation-system-fpurbffovkhsmn4hozsg6c.streamlit.app",
     status: "active",
   },
   {
